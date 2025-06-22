@@ -1,0 +1,100 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(205, 190, 239); /* Light Blue Background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centered container with lighter blue */
+.container {
+    background: linear-gradient(135deg, #CAF0F8, #E3FDFD); /* Very Light Blue Gradient */
+    width: 420px; /* Fixed width */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.15);/*values in pixels help to give shadows from 4 directions if 4 values given here we gave 3 values and colour opacity how darker which sode we want is given after the colour name brackets*/
+    text-align: center;
+    color: #023E8A; /* Dark Blue for better contrast */
+}
+
+/* Title styling */
+h1 {
+    color: #023E8A; /* Dark Blue */
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field styling */
+input {
+    padding: 12px;
+    width: calc(100% - 24px);
+    border: 2px solid #48CAE4; /* Light Blue Border */
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    background-color: #FFFFFF; /* White Background */
+    color: #023E8A; /* Dark Blue Text */
+}
+
+/* Button styling */
+button {
+    background-color: #0077B6; /* Medium Blue */
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0096C7; /* Lighter Blue Hover Effect */
+    transform: scale(1.05);
+}
+
+/* Weather information box */
+.weather-info {  
+    margin-top: 20px;
+    padding: 15px;
+    background: #FFFFFF; /* White background for contrast */
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Headings inside weather info */
+.weather-info h3 {
+    text-align: center;
+    color: #023E8A; /* Dark Blue */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #861275; 
+}
+
+/* Strong (bold text) styling */
+strong {
+    color: #0096C7; /* Lighter Blue */
+}
+
+/* Temperature values */
+#city-temp-celsius, #city-temp-fahrenheit {
+    font-size: 18px;
+    color: #861275; 
+}
