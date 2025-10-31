@@ -7,9 +7,10 @@ const cityTempinC= document.getElementById('city-temp-celsius');
 const cityTempinF= document.getElementById('city-temp-fahrenheit');
 
 async function getData(cityName) {
-    const promise = await fetch(
-        `http://api.weatherapi.com/v1/current.json?key=70ed0380dadf464882282728251102&q=${cityName}&aqi=yes`
-    );
+   const promise = await fetch(
+    `https://api.weatherapi.com/v1/current.json?key=70ed0380dadf464882282728251102&q=${cityName}&aqi=yes`
+);
+
     return await promise.json(); //as returning a promise so add await (json returns promise)(fetch returns promise which is response object (readable stream))
 }
 
