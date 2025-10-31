@@ -10,6 +10,8 @@ A simple weather app that shows current city weather and local time using the We
 
 ## How to Run
 Just open `index.html` in your browser.
+or click on (for live demo link)
+https://shreya2794.github.io/Weather-Wise/
 
 ## Author
 Shreya Dandale
